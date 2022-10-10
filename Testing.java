@@ -3,6 +3,7 @@
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
+java.util.random;
 
 public class Testing {
 
@@ -32,6 +33,12 @@ public class Testing {
         
         } // end for loop
 
+        //while loop example, error validation of entering random number
+
+
+
+        } // end while loop
+
         input1.close();
-    } // end main program
+    } // end of main program
 } //end of actual class
