@@ -3,8 +3,7 @@
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
-java.util.random;
-
+import java.util.Random;
 public class Testing {
 
     public static void main(String[] args) {
@@ -35,10 +34,31 @@ public class Testing {
 
         //while loop example, error validation of entering random number
 
+        Random random1 = new Random();
 
 
-        } // end while loop
+        int randomNum = random1.nextInt(10) + 1;
+
+        int guess = 0;
+
+        while (guess != randomNum) {
+
+            System.out.println("Guess a number between 1 and 10");
+            guess = input1.nextInt();
+
+            if (guess != randomNum) {
+
+                System.out.println("Wrong, try again");
+
+            } // end if
+
+        } // end while
+
+        System.out.println("You guessed it!");
 
         input1.close();
-    } // end of main program
-} //end of actual class
+
+        } //end main
+
+
+} // end class
