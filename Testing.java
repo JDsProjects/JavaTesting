@@ -70,6 +70,8 @@ public class Testing {
 
         checkOdd(number2);
 
+        checkOdd2(number2);
+
         } //end main
 
     private static void checkOdd(int number2) {
@@ -83,6 +85,24 @@ public class Testing {
                 System.out.println("The number is odd");
     
             } // end if
+    }
+
+    private static String checkOdd2(int number2) {
+
+        String answer = null;
+        
+        if (number2 % 2 == 0) {
+
+           answer = "The number is even";
+
+        } else {
+
+            answer = "The number is odd";
+
+        } // end if
+
+        return answer;
+        
     }
 
 
