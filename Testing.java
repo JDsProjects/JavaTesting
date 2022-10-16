@@ -74,6 +74,28 @@ public class Testing {
 
         System.out.println(checkOdd3(number2));
 
+        //higher or low game
+
+        randomNum = random1.nextInt(10) + 1;
+        guess = 0;
+
+        while (guess != randomNum) {
+
+            System.out.println("Guess a number between 1 and 10");
+            guess = input1.nextInt();
+
+            if (guess > randomNum)
+                System.out.println("Too high, try again");
+                
+            else if (guess < randomNum)
+                System.out.println("Too low, try again");
+            else
+                System.out.println("You guessed it!");
+
+            } // end if
+
+        } // end while
+
         } //end main
 
     private static void checkOdd(int number2) {
