@@ -72,6 +72,8 @@ public class Testing {
 
         checkOdd2(number2);
 
+        System.out.println(checkOdd3(number2));
+
         } //end main
 
     private static void checkOdd(int number2) {
@@ -103,6 +105,12 @@ public class Testing {
 
         return answer;
         
+    }
+
+    private static boolean checkOdd3(int number2) {
+
+        return (number2 % 2 == 0);
+
     }
 
 
