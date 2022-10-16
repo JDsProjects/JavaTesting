@@ -58,7 +58,32 @@ public class Testing {
 
         input1.close();
 
+        System.out.println("Welcome to Part 2");
+
+        //Part 2
+        
+        String userInput = null;
+        int number2 = 0;
+        userInput = JOptionPane.showInputDialog(null,"Please enter a number");
+
+        number2 = Integer.parseInt(userInput);
+
+        checkOdd(number2);
+
         } //end main
+
+    private static void checkOdd(int number2) {
+          
+            if (number2 % 2 == 0) {
+    
+                System.out.println("The number is even");
+    
+            } else {
+    
+                System.out.println("The number is odd");
+    
+            } // end if
+    }
 
 
 } // end class
