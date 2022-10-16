@@ -11,6 +11,7 @@ public class Testing {
         int number1 = 0;
 
         System.out.println("Hello World!");
+        //my linter doesn't like System.out.println, hmmm
 
         Scanner input1 = new Scanner(System.in);
 
@@ -86,7 +87,7 @@ public class Testing {
 
             if (guess > randomNum)
                 System.out.println("Too high, try again");
-                
+
             else if (guess < randomNum)
                 System.out.println("Too low, try again");
             else
@@ -94,9 +95,7 @@ public class Testing {
 
             } // end if
 
-        } // end while
-
-        } //end main
+        } //main end
 
     private static void checkOdd(int number2) {
           
