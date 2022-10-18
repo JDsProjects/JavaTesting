@@ -65,7 +65,7 @@ public class Testing {
         
         String userInput = null;
         int number2 = 0;
-        userInput = JOptionPane.showInputDialog(null,"Please enter a number");
+        userInput = JOptionPane.showInputDialog(null, "Please enter a number");
 
         number2 = Integer.parseInt(userInput);
 
